@@ -1981,7 +1981,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -2016,7 +2016,8 @@ AnimationClip:
     path: 
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2044,6 +2045,7 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -2059,6 +2061,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 3703709682
@@ -2066,6 +2070,8 @@ AnimationClip:
       typeID: 114
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -2088,7 +2094,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2116,7 +2123,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2144,7 +2153,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2172,7 +2183,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2200,6 +2213,7 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+    flags: 16
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
@@ -2463,15 +2477,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &-6141987407891304925
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2787,15 +2805,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &-5946164272461717703
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2918,15 +2940,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &-5300725567088358234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3825,7 +3851,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded (5)
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -3927,6 +3953,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 4
@@ -3934,6 +3962,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -3956,7 +3986,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4002,7 +4033,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4048,7 +4081,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4094,7 +4129,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4131,7 +4168,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4168,7 +4207,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4205,8 +4246,10 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -4216,7 +4259,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -4226,7 +4271,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -4236,6 +4283,7 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
@@ -4312,7 +4360,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded (2)
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -4423,6 +4471,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 4
@@ -4430,6 +4480,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -4452,7 +4504,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4516,7 +4569,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4562,7 +4617,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4608,7 +4665,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4636,7 +4695,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4664,7 +4725,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4692,8 +4755,10 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -4703,7 +4768,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -4713,7 +4780,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -4723,6 +4792,7 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
@@ -4763,15 +4833,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &-2801202391523030580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7836,15 +7910,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &1013061295495355092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8229,15 +8307,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &1749449812240311078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10085,7 +10167,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded (3)
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -10095,7 +10177,8 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10141,6 +10224,7 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 99a9c787e5d1bbf48a389834c4a9641c, type: 3}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -10156,6 +10240,8 @@ AnimationClip:
       typeID: 114
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -10178,7 +10264,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10224,6 +10311,7 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 99a9c787e5d1bbf48a389834c4a9641c, type: 3}
+    flags: 16
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
@@ -10293,15 +10381,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &4135409902954690227
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10323,15 +10415,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: c7902af5c8e25244f94914ce51e7ea8a, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &4306852340384649455
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10733,15 +10829,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &4693347093570727682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10785,15 +10885,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &4894459471072037402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11333,15 +11437,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &6064023615395660171
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11439,7 +11547,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded (1)
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -11534,6 +11642,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -11556,7 +11666,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11629,7 +11740,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11702,7 +11815,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11775,6 +11890,7 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
@@ -12268,15 +12384,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &7689368295923588225
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12476,15 +12596,19 @@ MonoBehaviour:
         m_Key: 
       m_FallbackState: 0
       m_WaitForCompletion: 1
+      m_LocalVariables: []
     _actor: {fileID: 11400000, guid: 2f14ee79b2fa2574480372fff57ec101, type: 2}
     _pauseWhenClipEnds: 0
+    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
     PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890,
       type: 2}
     PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020,
       type: 2}
-    LineEndedEvent: {fileID: 11400000, guid: 8c589a71a937d334db35937f7b5bb25e, type: 2}
   PlayDialogueEvent: {fileID: 11400000, guid: d987db4881d794f2da0013a89588d890, type: 2}
   PauseTimelineEvent: {fileID: 11400000, guid: 9b0fb5f181adc6b4ca020743fed6c020, type: 2}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &8148858503156114160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12852,7 +12976,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Recorded (4)
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -12963,6 +13087,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 4
@@ -12970,6 +13096,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -12992,7 +13120,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13047,7 +13176,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13102,7 +13233,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13157,7 +13290,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13194,7 +13329,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13231,7 +13368,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13268,8 +13407,10 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -13279,7 +13420,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -13289,7 +13432,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -13299,6 +13444,7 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []

@@ -22,17 +22,11 @@ MonoBehaviour:
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
     m_FileName: FromTownToJungle_<Take>
-  outputFormat: 0
-  videoBitRateMode: 2
+  m_Version: 1
+  encoderSettings:
+    rid: 4402001960796946432
   captureAlpha: 0
-  containerFormatSelected: 0
-  encoderSelected: 0
-  encoderPresetSelected: 0
-  encoderPresetSelectedName: 
-  encoderPresetSelectedOptions: 
-  encoderPresetSelectedSuffixes: 
-  encoderColorDefinitionSelected: 0
-  encoderCustomOptions: 
+  captureAudio: 1
   m_ImageInputSelector:
     m_Selected: gameViewInputSettings
     gameViewInputSettings:
@@ -90,6 +84,65 @@ MonoBehaviour:
       flipFinalOutput: 0
   m_AudioInputSettings:
     preserveAudio: 1
+  _accumulationSettings:
+    rid: 4402001960796946433
+  outputFormat: 0
+  encodingQuality: 2
+  containerFormatSelected: 0
+  encoderSelected: 0
+  encoderPresetSelected: 0
+  encoderPresetSelectedName: 
+  encoderPresetSelectedOptions: 
+  encoderPresetSelectedSuffixes: 
+  encoderColorDefinitionSelected: 0
+  encoderCustomOptions: 
+  references:
+    version: 2
+    RefIds:
+    - rid: 4402001960796946432
+      type: {class: CoreEncoderSettings, ns: UnityEditor.Recorder.Encoder, asm: Unity.Recorder.Editor}
+      data:
+        targetBitRate: 8
+        gopSize: 25
+        numConsecutiveBFrames: 2
+        encodingProfile: 2
+        keyframeDistance: 25
+        codec: 0
+        encodingQuality: 2
+    - rid: 4402001960796946433
+      type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
+      data:
+        captureAccumulation: 0
+        samples: 1
+        shutterInterval: 1
+        shutterProfileType: 0
+        shutterProfileCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        shutterFullyOpen: 0.25
+        shutterBeginsClosing: 0.75
+        useSubPixelJitter: 1
 --- !u!114 &-478806344806467824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -200,6 +253,7 @@ MonoBehaviour:
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 24
+    m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
 --- !u!114 &2511991284205271876
