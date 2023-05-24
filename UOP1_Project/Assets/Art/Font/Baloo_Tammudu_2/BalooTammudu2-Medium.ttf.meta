@@ -8,10 +8,13 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Baloo Tammudu 2
   fontNames:
   - Baloo Tammudu 2
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 952a1ddec301242ccb14388162b3a241, type: 3}
+  - {fileID: 12800000, guid: c57b78e245f1049c8b2b38017fd8207a, type: 3}
+  - {fileID: 12800000, guid: d60d7b4d8bd054971a0a4cfe8ec5f5d7, type: 3}
+  - {fileID: 12800000, guid: 9d4b2050a395e4ff5999234e48d1dd1e, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
